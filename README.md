@@ -468,7 +468,7 @@ visualizer.generate_legend_dashboard(legend.id, "visualizations")
 
 # Save all data for future reference
 legend_system.save_legends_and_spatial_data("rune_origin_simulation")
-
+```
 Best Practices for Integration
 1. Consistent Spatial Tracking
 
@@ -478,7 +478,7 @@ Always maintain consistent spatial tracking for agents and events. Every signifi
     Create appropriate spatial events
     Update journey segments
 
-python
+```python
 
 # Example of maintaining spatial consistency
 def update_agent_position(self, agent, new_node_id):
